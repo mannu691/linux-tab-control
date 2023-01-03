@@ -1,0 +1,23 @@
+{
+  "name": "linux-tab-control",
+  "version": "1.0.0",
+  "description": "Changes Linux's alt+(tab number) shortcut to Window's ctrl+(tab number)",
+  "main": "tab-control.js",
+  "scripts": {
+    "build": "web-ext build --overwrite-dest --no-input=true --source-dir src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannu691/linux-tab-control.git"
+  },
+  "author": "MannuG",
+  "license": "ISC",
+  "bugs": {
+  },
+  "homepage": "https://github.com/mannu691/linux-tab-control/tree/main",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jsonlint": "^1.6.3",
+    "web-ext": "^4.1.0"
+  }
+}

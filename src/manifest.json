@@ -1,0 +1,70 @@
+{
+  "author": "MannuG",
+  "background": {
+    "scripts": [
+      "tab-control.js"
+    ]
+  },
+  "commands": {
+    "tab-control-1": {
+      "description": "Switches to Tab Number 1",
+      "suggested_key": {
+        "default": "Ctrl+1"
+      }
+    },
+    "tab-control-2": {
+      "description": "Switches to Tab Number 2",
+      "suggested_key": {
+        "default": "Ctrl+2"
+      }
+    },
+    "tab-control-3": {
+      "description": "Switches to Tab Number 3",
+      "suggested_key": {
+        "default": "Ctrl+3"
+      }
+    },
+    "tab-control-4": {
+      "description": "Switches to Tab Number 4",
+      "suggested_key": {
+        "default": "Ctrl+4"
+      }
+    },
+    "tab-control-5": {
+      "description": "Switches to Tab Number 5",
+      "suggested_key": {
+        "default": "Ctrl+5"
+      }
+    },
+    "tab-control-6": {
+      "description": "Switches to Tab Number 6",
+      "suggested_key": {
+        "default": "Ctrl+6"
+      }
+    },
+    "tab-control-7": {
+      "description": "Switches to Tab Number 7",
+      "suggested_key": {
+        "default": "Ctrl+7"
+      }
+    },
+    "tab-control-8": {
+      "description": "Switches to Tab Number 8",
+      "suggested_key": {
+        "default": "Ctrl+8"
+      }
+    },
+    "tab-control-9": {
+      "description": "Switches to Tab Number 9",
+      "suggested_key": {
+        "default": "Ctrl+9"
+      }
+    }
+  },
+  "description": "This Firefox Extension to Change Linux's alt+(tab number) shortcut to Window's ctrl+(tab number), if the (tab number) over shoots the number of tabs open it switches to the last tab just like the original shortcut implementation.This addon is a fork of https://addons.mozilla.org/en-US/firefox/addon/ctrl-number-to-switch-tabs/, that addon doesn't have right implementation of original shortcut",
+  "homepage_url": "https://github.com/mannu691/linux-tab-control/tree/main",
+  "manifest_version": 2,
+  "name": "Linux Tab Control",
+  "short_name": "Ctrl+TabNumber",
+  "version": "1.0.0"
+}
